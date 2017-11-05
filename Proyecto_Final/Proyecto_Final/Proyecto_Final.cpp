@@ -238,8 +238,8 @@ void display ( void )   // Creamos la funcion donde se dibuja
 	glDisable(GL_TEXTURE_2D);
 	glDisable(GL_LIGHTING);
 		glColor3f(1.0,0.0,0.0);
-		pintaTexto(-12,12.0,-14.0,(void *)font,"Practica 10");
-		pintaTexto(-12,10.5,-14,(void *)font,"Poner algo en Movimiento");
+		//pintaTexto(-12,12.0,-14.0,(void *)font,"Practica 10");
+		//pintaTexto(-12,10.5,-14,(void *)font,"Poner algo en Movimiento");
 		glColor3f(1.0,1.0,1.0);
 	glEnable(GL_LIGHTING);
 	glEnable(GL_TEXTURE_2D);
@@ -363,7 +363,7 @@ int main ( int argc, char** argv )   // Main Function
   glutInitDisplayMode (GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH); // Display Mode (Clores RGB y alpha | Buffer Doble )
   glutInitWindowSize  (500, 500);	// Tamaño de la Ventana
   glutInitWindowPosition (0, 0);	//Posicion de la Ventana
-  glutCreateWindow    ("Practica 10"); // Nombre de la Ventana
+  glutCreateWindow    ("Proyecto_Final"); // Nombre de la Ventana
   //glutFullScreen     ( );         // Full Screen
   InitGL ();						// Parametros iniciales de la aplicacion
   glutDisplayFunc     ( display );  //Indicamos a Glut función de dibujo
